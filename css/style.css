@@ -1,0 +1,129 @@
+    * {
+        margin: 0 !important;
+    }
+    
+    body {
+        /* font-family: 'Amatic SC', cursive !important; */
+        font-family: 'Manrope', sans-serif !important;
+        background-color: #181716;
+        font-style: normal;
+    }
+    
+    .contenedor {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contenedor .contenido {
+        position: absolute;
+        margin-top: 100px;
+        padding-top: 30px !important;
+        padding: 30px !important;
+        padding-bottom: 30px !important;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    body::-webkit-scrollbar {
+        width: 2px !important;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        background: #fff !important;
+        border-radius: 20px !important;
+    }
+    
+    .encabezado {
+        text-align: center !important;
+        margin-top: 200px !important;
+    }
+    
+    .diseño-photo {
+        position: absolute !important;
+        top: 20px !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 200px;
+        height: 200px;
+        background: #ffffff;
+        border-radius: 50%;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 20px;
+    }
+    
+    .diseño-photo img {
+        width: 180px;
+        height: auto;
+    }
+    
+    .encabezado p {
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    
+    .encabezado span {
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    
+    .seccion ul {
+        float: left;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .seccion ul li {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .seccion ul li p {
+        color: white;
+        font-weight: 100 !important;
+        font-size: 20px !important;
+    }
+    
+    .seccion .ul1 {
+        text-align: right;
+        padding-right: 30px;
+    }
+    
+    .seccion .ul1 li ul li {
+        float: left;
+        margin: 10px;
+        object-fit: cover;
+    }
+    
+    .seccion .ul1 li ul li img {
+        width: 60px;
+        height: auto;
+    }
+    
+    .seccion .ul2 {
+        text-align: left;
+        border-left: 1px solid #fff;
+    }
+    
+    .seccion .ul2 li p {
+        font-weight: bold !important;
+    }
+    
+    .seccion .ul2 .p-pequeña {
+        font-size: 15px !important;
+        font-weight: 100 !important;
+        margin: 0px !important;
+    }

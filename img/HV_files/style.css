@@ -1,0 +1,115 @@
+    body {
+        /* font-family: 'Amatic SC', cursive !important; */
+        font-family: 'Manrope', sans-serif !important;
+        background-color: #181716;
+        font-style: normal;
+    }
+    
+    .contenedor {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contenedor .contenido {
+        position: absolute;
+        margin-top: 100px;
+        padding-top: 30px !important;
+        padding: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    
+    body::-webkit-scrollbar {
+        width: 2px !important;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        background: #fff !important;
+        border-radius: 20px !important;
+    }
+    
+    .contenedor .contenido::-webkit-scrollbar {
+        width: 2px !important;
+        margin-right: -80px;
+    }
+    
+    .contenedor .contenido::-webkit-scrollbar-thumb {
+        background: #fff !important;
+        border-radius: 20px !important;
+    }
+    
+    .encabezado {
+        text-align: center;
+    }
+    
+    .encabezado img {
+        height: 150px !important;
+        height: auto;
+        border-radius: 20px;
+    }
+    
+    .encabezado p {
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    
+    .encabezado span {
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    
+    .seccion ul {
+        float: left;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .seccion ul li {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .seccion ul li p {
+        color: white;
+        font-weight: 100 !important;
+        font-size: 20px !important;
+    }
+    
+    .seccion .ul1 {
+        text-align: right;
+        padding-right: 30px;
+    }
+    
+    .seccion .ul1 li ul li {
+        float: left;
+        margin: 10px;
+        object-fit: cover;
+    }
+    
+    .seccion .ul1 li ul li img {
+        width: 60px;
+        height: auto;
+    }
+    
+    .seccion .ul2 {
+        text-align: left;
+        border-left: 1px solid #fff;
+    }
+    
+    .seccion .ul2 li p {
+        font-weight: bold !important;
+    }
+    
+    .seccion .ul2 .p-pequeña {
+        font-size: 15px !important;
+        font-weight: 100 !important;
+        margin: 0px !important;
+    }
